@@ -1,4 +1,4 @@
-type person = {
+type Person = {
   id: number;
   name: string;
   birth_year: number;
@@ -6,3 +6,4 @@ type person = {
   biography: string;
   image: string;
 };
+
