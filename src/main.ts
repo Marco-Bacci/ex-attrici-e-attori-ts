@@ -1,8 +1,8 @@
 type Person = {
-  id: number;
-  name: string;
+  readonly id: number;
+  readonly name: string;
   birth_year: number;
-  death_year: number | null;
+  death_year?: number
   biography: string;
   image: string;
 };
